@@ -51,7 +51,7 @@ class Form extends Component {
                     <div>
                         <label>
                             Phone Number:
-                            <input type="phone" name="phoneNumber" value={this.state.phone} onChange={this.handlePhoneChange} placeholder="+234 8189706105"></input>
+                            <input type="tel" name="phoneNumber" value={this.state.phone} onChange={this.handlePhoneChange} placeholder="+234 8189706105"></input>
                         </label>
                     </div>
                     <div>
